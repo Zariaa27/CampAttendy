@@ -1,0 +1,20 @@
+{
+  "name": "camphelper",
+  "version": "0.0.1",
+  "description": "This is a fully fledged web app to help day-camp animators manage occupant's attendance and info.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npx nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zariaa",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "mysql2": "^3.3.5"
+  }
+}
