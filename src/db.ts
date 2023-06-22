@@ -2,10 +2,10 @@ import mysql from 'mysql2';
 
 export default class DB {
 	private static readonly db: mysql.Connection = mysql.createConnection({
-		host: 'techno.artivain.com',
-		user: 'u26_1qWd3Vkamf',
-		password: 'nfAOQ.obYqwlk7J.^1uGrIg^',
-		database: 's26_campattendy'
+		host: 'exemple',
+		user: 'exemple',
+		password: 'exemple',
+		database: 'exemple'
 	});
 
     public static async getOccupant(name: string): Promise<Occupant> {
